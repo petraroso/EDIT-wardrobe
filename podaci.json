@@ -1,0 +1,122 @@
+{
+  "clothes": [
+    {
+      "id": 1,
+      "category": "Hlače",
+      "size": "m",
+      "color": "#ffffff",
+      "image": "../pants.jpg",
+      "purchaseDate": "2014-04-04"
+    },
+    {
+      "id": 2,
+      "category": "Suknje",
+      "size": "m",
+      "color": "#ffffff",
+      "image": "../skirt.jpg",
+      "purchaseDate": "2024-04-04"
+    },
+    {
+      "id": 3,
+      "category": "Suknje",
+      "size": "m",
+      "color": "#ffffff",
+      "image": "../skirt.jpg",
+      "purchaseDate": "2024-04-04"
+    },
+    {
+      "id": 4,
+      "category": "Majice",
+      "size": "m",
+      "color": "#ffffff",
+      "image": "../shirt.jpg",
+      "purchaseDate": "2024-07-04"
+    },
+    {
+      "id": 5,
+      "category": "Majice",
+      "size": "m",
+      "color": "#ffffff",
+      "image": "../shirt.jpg",
+      "purchaseDate": "2024-04-04"
+    },
+    {
+      "category": "Majice",
+      "size": "l",
+      "color": "#a5c729",
+      "image": "../shirt.jpg",
+      "purchaseDate": "2024-04-04",
+      "id": 6
+    },
+    {
+      "category": "Dodaci",
+      "size": "s",
+      "color": "#b02121",
+      "image": "../scarf.jpg",
+      "purchaseDate": "2024-05-04",
+      "id": 7
+    },
+    {
+      "category": "Hlače",
+      "size": "5xl",
+      "color": "#3cd331",
+      "image": "../pants.jpg",
+      "purchaseDate": "2024-01-04",
+      "id": 8
+    },
+    {
+      "category": "Majice",
+      "size": "3xl",
+      "color": "#929442",
+      "image": "../shirt.jpg",
+      "purchaseDate": "2024-04-17",
+      "id": 9
+    },
+    {
+      "category": "Majice",
+      "size": "m",
+      "color": "#901313",
+      "image": "../shirt.jpg",
+      "purchaseDate": "2022-06-09",
+      "id": 10
+    },
+    {
+      "category": "Majice",
+      "size": "m",
+      "color": "#b72a2a",
+      "image": "../shirt.jpg",
+      "purchaseDate": "2024-06-04",
+      "id": 11
+    },
+    {
+      "category": "Jakete",
+      "size": "xxl",
+      "color": "#8b43c7",
+      "image": "../jacket.png",
+      "purchaseDate": "2024-04-11",
+      "id": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Hlače"
+    },
+    {
+      "id": "2",
+      "name": "Suknje"
+    },
+    {
+      "id": "3",
+      "name": "Majice"
+    },
+    {
+      "id": "4",
+      "name": "Jakete"
+    },
+    {
+      "id": "5",
+      "name": "Dodaci"
+    }
+  ]
+}

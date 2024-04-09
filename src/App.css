@@ -1,0 +1,181 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Page container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Form container styles */
+.formContainer {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.formContainer h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+select,
+input[type="text"],
+input[type="date"],
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+input[type="color"] {
+  display: block;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+.formContainer button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Filters container styles */
+.filtersContainer {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: baseline;
+
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.filtersContainer h2 {
+  font-size: 20px;
+}
+
+.filtersContainer label {
+  display: block;
+  margin-left: 10px;
+}
+
+/* Clothes list container styles */
+.clothesListContainer {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.clothesListContainer h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Clothing item styles */
+.clothesItemContainer {
+  border-bottom: 1px solid #ccc;
+}
+
+.clothesItemContainer td {
+  padding: 10px;
+}
+
+.itemColor {
+  height: 20px;
+  background-color: var(--backgroundColor);
+  border: 1px solid #ccc;
+}
+
+.clothingItemImage {
+  height: 30px;
+}
+
+/* Icon styles */
+svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    max-width: 100%;
+    padding: 30px;
+  }
+
+  .formContainer {
+    display: inline-block;
+    vertical-align: top;
+
+    width: calc(40%);
+    margin-right: 20px;
+  }
+
+  .filterAndListContainer {
+    display: inline-block;
+    width: calc(60% - 30px);
+  }
+}
