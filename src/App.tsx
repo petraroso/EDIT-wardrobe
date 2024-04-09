@@ -41,13 +41,13 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/clothes")
+      .get("https://json-server-test-r74d.onrender.com/clothes")
       .then((res) => {
         setClothes(res.data);
       })
       .catch((err) => console.log(err.message));
     axios
-      .get("http://localhost:3001/categories")
+      .get("https://json-server-test-r74d.onrender.com/categories")
       .then((res) => {
         setCategories(res.data);
       })

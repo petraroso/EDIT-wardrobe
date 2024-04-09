@@ -48,7 +48,7 @@ const EditableClothingItem: React.FC<ItemProps> = ({
 
   const sendData = () => {
     axios
-      .patch(`http://localhost:3001/clothes/${newData.id}`, newData)
+      .patch(`https://json-server-test-r74d.onrender.com/clothes/${newData.id}`, newData)
       .then((result) => console.log(result))
       .catch((err) => console.log(err.message));
 

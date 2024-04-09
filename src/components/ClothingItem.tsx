@@ -26,7 +26,7 @@ const ClothingItem: React.FC<ItemProps> = ({
     if (window.confirm("Jeste li sigurni da želite izbrisati artikal?")) {
       setItemDeleteId(item.id);
       axios
-        .delete(`http://localhost:3001/clothes/${item.id}`)
+        .delete(`https://json-server-test-r74d.onrender.com/clothes/${item.id}`)
         .then((rez) => console.log(rez));
     }
   }

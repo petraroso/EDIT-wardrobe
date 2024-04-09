@@ -34,7 +34,7 @@ const InputForm: React.FC<FormProps> = ({
       window.alert("Unesite kategoriju i veličinu.");
     } else {
       axios
-        .post("http://localhost:3001/clothes", formData)
+        .post("https://json-server-test-r74d.onrender.com/clothes", formData)
         .then((result) => console.log(result))
         .catch((err) => console.log(err.message));
     }
