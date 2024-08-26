@@ -49,6 +49,8 @@ select,
 input[type="text"],
 input[type="date"],
 button {
+  -webkit-appearance: none; /* Uklanjanje zadanog izgleda na iOS-u */
+  appearance: none; /* Uklanjanje zadanog izgleda na modernim preglednicima */
   display: block;
   width: 100%;
   margin-bottom: 10px;
