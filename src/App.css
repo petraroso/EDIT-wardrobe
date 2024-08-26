@@ -27,7 +27,6 @@ header {
   text-align: center;
   padding: 20px 0;
 }
-
 header h2 {
   font-size: 24px;
   color: #333;
@@ -41,7 +40,6 @@ header h2 {
   padding: 20px;
   margin-bottom: 20px;
 }
-
 .formContainer h2 {
   font-size: 20px;
   margin-bottom: 10px;
@@ -69,7 +67,6 @@ input[type="color"] {
   box-sizing: content-box;
   cursor: pointer;
 }
-
 .formContainer button {
   background-color: #4caf50;
   color: #fff;
@@ -90,11 +87,9 @@ input[type="color"] {
   overflow: auto;
   white-space: nowrap;
 }
-
 .filtersContainer h2 {
   font-size: 20px;
 }
-
 .filtersContainer label {
   display: block;
   margin-left: 10px;
@@ -106,11 +101,9 @@ input[type="color"] {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;
-
   overflow: auto;
   white-space: nowrap;
 }
-
 .clothesListContainer h2 {
   font-size: 20px;
   margin-bottom: 10px;
@@ -121,14 +114,12 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
-
 th,
 td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
 }
-
 th {
   background-color: #f2f2f2;
 }
@@ -137,17 +128,14 @@ th {
 .clothesItemContainer {
   border-bottom: 1px solid #ccc;
 }
-
 .clothesItemContainer td {
   padding: 10px;
 }
-
 .itemColor {
   height: 20px;
   background-color: var(--backgroundColor);
   border: 1px solid #ccc;
 }
-
 .clothingItemImage {
   height: 30px;
 }
@@ -159,21 +147,32 @@ svg {
   margin-right: 5px;
   cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #fff;
+  }
+  .container {
+    padding: 0;
+  }
+  .clothesListContainer {
+    padding: 0;
+  }
+  .clothesListContainer h2 {
+    padding: 20px 0 10px 20px;
+  }
+}
 
 @media screen and (min-width: 1000px) {
   .container {
     max-width: 100%;
     padding: 30px;
   }
-
   .formContainer {
     display: inline-block;
     vertical-align: top;
-
     width: calc(40%);
     margin-right: 20px;
   }
-
   .filterAndListContainer {
     display: inline-block;
     width: calc(60% - 30px);
