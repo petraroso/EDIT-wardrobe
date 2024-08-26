@@ -97,6 +97,7 @@ const InputForm: React.FC<FormProps> = ({
         name="purchaseDate"
         value={formData.purchaseDate}
         onChange={handleFormData}
+        placeholder="Datum"
       />
 
       <button onClick={sendData}>Spremi ✔️</button>
